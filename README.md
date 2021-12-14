@@ -1,5 +1,5 @@
 ## Jobs page and detail
-![alt-text-1](/assets/b.PNG) ![alt-text-2](/assets/c.PNG)
+<img src="./assets/b.PNG" width="300"> <img src="./assets/c.PNG" width="300">
 
 ## Add to favourites and favourites page
-![alt-text-1](/assets/d.PNG) ![alt-text-2](/assets/a.PNG)
+<img src="./assets/d.PNG" width="300"> <img src="./assets/a.PNG" width="300">
