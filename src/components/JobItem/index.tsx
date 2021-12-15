@@ -9,7 +9,7 @@ const JobItem = ({ job, onSelect, children }: any) => {
                 <Text style={styles.title}>{job.name}</Text>
                 <Text>{job.company.name}</Text>
                 <Text style={styles.location}>{job.locations.length > 0 ? job.locations[0].name : "No location"}</Text>
-                <Text style={styles.level}>{job.levels[0].name}</Text>
+                <Text style={styles.level}>{job.levels.length > 0 ?job.levels[0].name : "No level"}</Text>
                 {children}
             </View>
         </TouchableWithoutFeedback>

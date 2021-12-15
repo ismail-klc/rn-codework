@@ -6,8 +6,6 @@ import JobItem from '../../components/JobItem';
 const Favourites = () => {
     const favs = useSelector(state => state.favs)
     const dispatch = useDispatch()
-    console.log(favs);
-    
 
     const handleRemove = (id: number) => {
         dispatch({ type: "REMOVE_FAV", payload: { id } })

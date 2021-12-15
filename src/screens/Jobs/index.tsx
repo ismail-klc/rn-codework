@@ -15,6 +15,9 @@ const Jobs = ({ navigation }: any) => {
         <JobItem job={item} onSelect={() => handleSelect(item.id)}/>
     )
 
+    if(error){
+        return <Text>Error</Text>
+    }
     if (loading) {
         return <ActivityIndicator style={{ flex: 1, justifyContent: "center" }} />
     }
